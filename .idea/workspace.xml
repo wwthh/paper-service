@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e89127f2-6abe-4f51-840d-633779dcfa13" name="Default Changelist" comment="" />
+    <list default="true" id="e89127f2-6abe-4f51-840d-633779dcfa13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/BigPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/Venue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/utils/DealWithPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/utils/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/utils/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/utils/Success.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/paper-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/PaperServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/PaperServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/controller/PaperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/controller/PaperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/Paper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/PaperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/PaperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model/PapersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wwt/paperservice/PaperServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/PaperServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/PaperServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/controller/PaperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/controller/PaperController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/Paper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/Paper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/PaperRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/PaperRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/PapersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/Venue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wwt/paperservice/model/Venue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wwt/paperservice/PaperServiceApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1V3iTXI6cWBTZizVE8iZPfqCGVw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,8 +67,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/wwt/paperservice" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wwt.paperservice.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/wwt/paperservice" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wwt/paperservice/model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="PaperServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -36,18 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,11 +116,29 @@
       <option name="presentableId" value="Default" />
       <updated>1576488187758</updated>
       <workItem from="1576488196901" duration="626000" />
+      <workItem from="1576674789100" duration="3891000" />
+      <workItem from="1576680677785" duration="4345000" />
+      <workItem from="1576719113012" duration="35000" />
+      <workItem from="1576815436481" duration="3653000" />
+      <workItem from="1576844045581" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="102" key="FileChooserDialogImpl" timestamp="1576488850905">

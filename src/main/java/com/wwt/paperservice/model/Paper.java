@@ -1,39 +1,15 @@
 package com.wwt.paperservice.model;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
 
-import java.io.Serializable;
+import java.util.Arrays;
 
-class Venue {
-    String id;
-    String raw;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getRaw() {
-        return raw;
-    }
-
-    public void setRaw(String raw) {
-        this.raw = raw;
-    }
-}
-
-@Document("Paper")
-public class Paper implements Serializable {
-
-    private static final long serialVersionUID = -171669790372885614L;
+@Document(indexName = "paper3", type = "paper3")
+public class Paper {
 
     @Id
-    @Field("_id")
     private String id;
 
     @Field("title")
@@ -90,7 +66,7 @@ public class Paper implements Serializable {
     @Field("url")
     private String[] urls; // 下载链接可能有很多个,所以这里用了数组
 
-    @Field("abstract")
+    @Field("summary")
     private String summary;
 
     @Field("price")
@@ -262,5 +238,32 @@ public class Paper implements Serializable {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Paper{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", authors=" + Arrays.toString(authors) +
+                ", venue=" + venue +
+                ", year=" + year +
+                ", keywords=" + Arrays.toString(keywords) +
+                ", n_citation=" + n_citation +
+                ", page_start='" + page_start + '\'' +
+                ", page_end='" + page_end + '\'' +
+                ", type='" + type + '\'' +
+                ", language='" + language + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", volume='" + volume + '\'' +
+                ", issue='" + issue + '\'' +
+                ", issn='" + issn + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", doi='" + doi + '\'' +
+                ", pdf='" + pdf + '\'' +
+                ", urls=" + Arrays.toString(urls) +
+                ", summary='" + summary + '\'' +
+                ", price=" + price +
+                '}';
     }
 }
